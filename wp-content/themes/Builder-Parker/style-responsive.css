@@ -1,0 +1,18 @@
+/*********************************************
+	"From the Blog" Extension
+*********************************************/
+
+body .builder-module-content .it-from-blog-extension:nth-child(n) {
+	width: 47.5%;
+	margin-right: 5%;
+	clear: none;
+}
+body .builder-module-content .it-from-blog-extension:nth-child(2n) {
+	margin-right: 0;
+}
+body .builder-module-content .it-from-blog-extension:nth-child(2n+1) {
+	clear: both;
+}
+body .builder-module-content .it-from-blog-extension:nth-last-child(-n+2) {
+	margin-bottom: 0;
+}
